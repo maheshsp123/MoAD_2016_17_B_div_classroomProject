@@ -30,7 +30,7 @@
         <activity android:name=".thirdActivity" />
         <activity android:name=".fourth_Activity" />
         <activity android:name=".fifth_Activity" />
-        <activity android:name=".loginActivity"></activity>
+        <activity android:name=".loginActivity" />
     </application>
 
 </manifest>
