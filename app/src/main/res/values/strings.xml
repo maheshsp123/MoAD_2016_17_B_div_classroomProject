@@ -2,4 +2,6 @@
     <string name="app_name">MoAD_2016_17</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_second">secondActivity</string>
+    <string name="profile_str">PROFILE</string>
+    <string name="logout_str">LOG OUT</string>
 </resources>
