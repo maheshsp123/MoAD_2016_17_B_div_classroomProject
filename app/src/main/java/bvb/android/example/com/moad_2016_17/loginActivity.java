@@ -2,6 +2,7 @@ package bvb.android.example.com.moad_2016_17;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -46,5 +47,11 @@ public class loginActivity extends AppCompatActivity {
                             (loginActivity.this, "login failed", Toast.LENGTH_SHORT).show();
             }
         });
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_login,menu);
+        return true;
     }
 }
