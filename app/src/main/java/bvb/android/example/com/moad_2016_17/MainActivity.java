@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     AppCompatActivity thisActivityReference;
     Button fourthActivityButtonRef;
     //test line from cabin pc for GitHub
+    //test line from laptop
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         Log.i(LOG_CAT, "onCreate()");
